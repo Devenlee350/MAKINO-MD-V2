@@ -13,7 +13,7 @@
   </a>
 </p>
 <p align="center">
-<a href="https://github.com/Devenlee350"><img title="Author" src="https://img.shields.io/badge/Makino-MDv2-black?style=for-the-badge&logo=twitter"></a>
+<a href="https://github.com/Devenlee350"><img title="Author" src="https://img.shields.io/badge/QUEEN-NOVA-black?style=for-the-badge&logo=twitter"></a>
 <p/>
 <p align="center">
 <a href="https://github.com/Devenlee350?tab=followers"><img title="Followers" src="https://img.shields.io/github/followers/Devenlee350?label=Followers&style=social"></a>
