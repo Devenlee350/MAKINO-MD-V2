@@ -58,7 +58,7 @@ async function TairaStart() {
 const store = makeInMemoryStore({ logger: pino().child({ level: 'silent', stream: 'store' }) });
 const { state, saveCreds } = await useMultiFileAuthState('./taira_baileys'); 
 const { version, isLatest } = await fetchLatestBaileysVersion();
-console.log(`Starting MAKINO-MD-V2 using WhatsApp version v${version.join('.')}, isLatest: ${isLatest}`);
+console.log(`Starting 𝘘𝘜𝘌𝘌𝘕 𝘕𝘖𝘝𝘈 using WhatsApp version v${version.join('.')}, isLatest: ${isLatest}`);
 	
 const resolveMsgBuffer = new NodeCache()
 
@@ -76,17 +76,17 @@ const Taira = TairaConnect({
                     const msg = await store.loadMessage(key.remoteJid, key.id);
                     return msg.message || undefined;
                 }
-                return { conversation: "MAKINO-MD-V2 🙂⃤ 🙂⃤ταιяα мακιиο" };
+                return { conversation: "𝘘𝘜𝘌𝘌𝘕 𝘕𝘖𝘝𝘈 вч stríkєrвσч" };
     }
 })
 
     if (usePairingCode && !Taira.authState.creds.registered) {
-    say(`MAKINO\nMD\n\nV2`, {
+    say(`𝘘𝘜𝘌𝘌𝘕\n𝘕𝘖𝘝𝘈`, {
         font: 'block',
         align: 'center',
     })
 	    
-    const phoneNumber = await question(` Input your phone number\n<🩸 EXAMPLE : 2347080968564\n Number without (+): `);
+    const phoneNumber = await question(` Input your phone number\n<🩸 EXAMPLE : 263714567890\n Number without (+): `);
    // Request and display the pairing code
    const code = await Taira.requestPairingCode(phoneNumber.trim());
    console.log(`[ # ] enter this code into whatspp to pair : ${code}`);
@@ -201,24 +201,24 @@ Taira.setStatus = (status) => {
         }
         if (connection === "open" || update.receivedPendingNotifications == "true")  {
           console.log("Connection to WhatsApp successful ✅");
-          console.log("Welcome to MAKINO-MD-V2 ✨");
+          console.log("Welcome to ❈𝘘𝘜𝘌𝘌𝘕 ɴᴏᴠᴀ❈");
           const userName = Taira.user.name ? Taira.user.name : global.BotName;
-          console.log('♱ MAKINO-MD-V2 User Info');
-          console.log(`♱ Name     : ${userName}`);
-          console.log(`♱ Number   : ${Taira.user.id.split(':')[0]}`);
-          console.log(`♱ Status   : Connected`);
+          console.log('❀ ❈𝘘𝘜𝘌𝘌𝘕 ɴᴏᴠᴀ❈ User Info');
+          console.log(`❀ Name     : ${userName}`);
+          console.log(`❀ Number   : ${Taira.user.id.split(':')[0]}`);
+          console.log(`❀ Status   : Connected`);
           const packageVersion = require("./package.json").version;
           const long = String.fromCharCode(8206);
           const readmore = long.repeat(4001);  
           let uinfo = `
-          ♱ MAKINO-MD-V2 User Info
-          ♱ Name     : ${userName}
-          ♱ Number   : ${Taira.user.id.split(':')[0]}
-          ♱ Status   : Connected
-          ♱ Version: : ${packageVersion}
-          ♱ Prefix   : ${global.prefa}
-          ♱ Creator  : https://t.me/Tha_Healer
-          ♱ GitHub   : https://github.com/anonphoenix007
+          ❀ ❈𝘘𝘜𝘌𝘌𝘕 ɴᴏᴠᴀ❈ User Info
+          ❀ Name     : ${userName}
+          ❀ Number   : ${Taira.user.id.split(':')[0]}
+          ❀ Status   : Connected
+          ❀ Version: : ${packageVersion}
+          ❀ Prefix   : ${global.prefa}
+          ❀ Creator  : https://t.me/Strikerboy350
+          ❀ GitHub   : https://github.com/Devenlee350
 	  
           change prefix with setprefix command!
           ` 
@@ -259,7 +259,7 @@ Taira.ev.on('call', async (message) => {
     for (let mkv2 of message) {
     if (mkv2.isGroup == false) {
     if (mkv2.status == "offer") {
-    let BlockMsg= await Taira.sendMessage(mkv2.from, { text: `♱MAKINO-MD-V2♱♡⃤ user can't take calls for now,please wait for him to reply instead`})
+    let BlockMsg= await Taira.sendMessage(mkv2.from, { text: `❈𝘘𝘜𝘌𝘌𝘕 ɴᴏᴠᴀ❈ user can't take calls for now,please wait for him to reply instead`})
     await sleep(8000)
     await Taira.updateBlockStatus(mkv2.from, "block")
     await sleep(20000)
