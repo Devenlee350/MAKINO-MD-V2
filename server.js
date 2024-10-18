@@ -18,7 +18,7 @@ function start() {
       })
       .on('message', data => {
          if (data == 'reset') {
-            console.log('Restarting MAKINO-MD-V2...')
+            console.log('Restarting 𝘘𝘜𝘌𝘌𝘕 𝘕𝘖𝘝𝘈...')
             p.kill()
             start()
             delete p
