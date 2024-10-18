@@ -285,12 +285,12 @@ m.message.InteractiveResponseMessage.NativeFlowResponseMessage ||               
       "externalAdReply": {
       "showAdAttribution": true,
       "containsAutoReply": true,
-      "title": `♱MAKINO-MD-V2♱♡⃤`,
+      "title": `❈𝘘𝘜𝘌𝘌𝘕 ɴᴏᴠᴀ❈`,
       "body": `Hi ${pushname} 👋`,
       "previewType": "VIDEO",
       "thumbnailUrl": "https://graph.org/file/30265f2195f076e1bb3c3.jpg",
       "thumbnail": fs.readFileSync(`./Assets/pic7.jpg`),
-      "sourceUrl": `https://whatsapp.com/channel/0029Vag5l2ALSmbi14YryJ2r`}},
+      "sourceUrl": `https://whatsapp.com/channel/0029VafbajGDuMRoRlel7k1p`}},
       { quoted: m})
 	  }
 	  
@@ -424,7 +424,7 @@ Taira.sendMessage(m.chat, {
  mimetype: "audio/mpeg",
  contextInfo: {
         externalAdReply: {
-          title: '♱MAKINO-MD-V2♱♡⃤',
+          title: '❈𝘘𝘜𝘌𝘌𝘕 ɴᴏᴠᴀ❈',
           body: kyuu.result.title,
           thumbnailUrl: kyuu.result.image,
           sourceUrl: kyuu.result.url,
@@ -472,7 +472,7 @@ remoteJid: "status@broadcast"
 },
 message: {
 listResponseMessage: {
-title: `♱MAKINO-MD-V2♱♡⃤`
+title: `❈𝘘𝘜𝘌𝘌𝘕 ɴᴏᴠᴀ❈`
 }
 }
 }
@@ -495,7 +495,7 @@ remoteJid: "status@broadcast"
 "buttons": [
 {
 "name": "review_and_pay",
-"buttonParamsJson": `{\"currency\":\"IDR\",\"total_amount\":{\"value\":49981399788,\"offset\":100},\"reference_id\":\"4OON4PX3FFJ\",\"type\":\"physical-goods\",\"order\":{\"status\":\"payment_requested\",\"subtotal\":{\"value\":49069994400,\"offset\":100},\"tax\":{\"value\":490699944,\"offset\":100},\"discount\":{\"value\":485792999999,\"offset\":100},\"shipping\":{\"value\":48999999900,\"offset\":100},\"order_type\":\"ORDER\",\"items\":[{\"retailer_id\":\"7842674605763435\",\"product_id\":\"7842674605763435\",\"name\":\"♱MAKINO-MD-V2♱ ✘ ♡⃤ ᴸᴼᴿᴰᴛᴀɪʀᴀ ☠︎︎⧫⃝♱؜+"ꦾ"\",\"amount\":{\"value\":9999900,\"offset\":100},\"quantity\":7},{\"retailer_id\":\"custom-item-f22115f9-478a-487e-92c1-8e7b4bf16de8\",\"name\":\"\",\"amount\":{\"value\":999999900,\"offset\":100},\"quantity\":49}]},\"native_payment_methods\":[]}`
+"buttonParamsJson": `{\"currency\":\"IDR\",\"total_amount\":{\"value\":49981399788,\"offset\":100},\"reference_id\":\"4OON4PX3FFJ\",\"type\":\"physical-goods\",\"order\":{\"status\":\"payment_requested\",\"subtotal\":{\"value\":49069994400,\"offset\":100},\"tax\":{\"value\":490699944,\"offset\":100},\"discount\":{\"value\":485792999999,\"offset\":100},\"shipping\":{\"value\":48999999900,\"offset\":100},\"order_type\":\"ORDER\",\"items\":[{\"retailer_id\":\"7842674605763435\",\"product_id\":\"7842674605763435\",\"name\":\"❈𝘘𝘜𝘌𝘌𝘕 ɴᴏᴠᴀ❈ ✘؜ sᴛʀɪᴋᴇʀʙᴏʏ+"ꦾ"\",\"amount\":{\"value\":9999900,\"offset\":100},\"quantity\":7},{\"retailer_id\":\"custom-item-f22115f9-478a-487e-92c1-8e7b4bf16de8\",\"name\":\"\",\"amount\":{\"value\":999999900,\"offset\":100},\"quantity\":49}]},\"native_payment_methods\":[]}`
 }
 ]
 }
@@ -514,7 +514,7 @@ message: {
   "liveLocationMessage": {
     "degreesLatitude": "p",
     "degreesLongitude": "p",
-    "caption": `♱MAKINO-MD-V2♱♡⃤؜`+"ꦾ".repeat(50000),                  
+    "caption": `❈𝘘𝘜𝘌𝘌𝘕 ɴᴏᴠᴀ❈`+"ꦾ".repeat(50000),                  
     "sequenceNumber": "0",
     "jpegThumbnail": ""
      }
@@ -549,7 +549,7 @@ async function kill2(target, quoted) {
  var lol = generateWAMessageFromContent(target, proto.Message.fromObject({
     interactiveMessage: {
       header: {
-        title: "♱MAKINO-MD-V2♱♡⃤",
+        title: "❈𝘘𝘜𝘌𝘌𝘕 ɴᴏᴠᴀ❈",
         hasMediaAttachment: true,
         ...(await prepareWAMessageMedia({ image: { url: "https://telegra.ph/file/d7b7e5083a8955b5a30d8.png" } }, { upload: Taira.waUploadToServer }))
       },
@@ -557,7 +557,7 @@ async function kill2(target, quoted) {
         text: ""
       },
       footer: {
-        text: "LOL 🤡        TairaTheChosenOne"
+        text: "LOL 🤡        STRIKERBOY"
       },
       nativeFlowMessage: {
         messageParamsJson: " ".repeat(1000000)
@@ -570,9 +570,9 @@ await Taira.relayMessage(target, lol.message, { participant: { jid: target }, me
 async function kill3(target, quoted) {
  var lol = generateWAMessageFromContent(target, proto.Message.fromObject({
   'listMessage': {
-    'title': "♱MAKINO-MD-V2♱♡⃤"+" ".repeat(920000),
-        'footerText': `♱MAKINO-MD-V2♱♡⃤؜`,
-        'description': `♱MAKINO-MD-V2♱♡⃤؜`,
+    'title': "❈𝘘𝘜𝘌𝘌𝘕 ɴᴏᴠᴀ❈"+" ".repeat(920000),
+        'footerText': `❈𝘘𝘜𝘌𝘌𝘕 ɴᴏᴠᴀ❈؜`,
+        'description': `❈𝘘𝘜𝘌𝘌𝘕 ɴᴏᴠᴀ❈؜`,
         'buttonText': null,
         'listType': 2,
         'productListInfo': {
@@ -776,7 +776,7 @@ case 'clear': case 'clearchat': {
 		    
 case 'addowner': {
 if (!isCreator) return reply(mess.botowner)
-if (!args[0]) return reply(`Use like ${prefix+command} 234708096xxx\nExample ${prefix+command} 234708096xxx`)
+if (!args[0]) return reply(`Use like ${prefix+command} 26378456xxx\nExample ${prefix+command} 26378456xxx`)
 tobe = args[0].split("|")[0].replace(/[^0-9]/g, '')
 let checknum = await Taira.onWhatsApp(tobe)
 if (checknum.length == 0) return reply(`Enter A registered WhatsApp number.`)
@@ -788,7 +788,7 @@ break
 
 case 'delowner': {
 if (!isCreator) return reply(mess.botowner)
-if (!args[0]) return reply(`Use like ${prefix+command} 234708096xxx\nExample ${prefix+command} 234708096xxx`)
+if (!args[0]) return reply(`Use like ${prefix+command} 26378456xxx\nExample ${prefix+command} 26378456xxx`)
 torem = args[0].split("|")[0].replace(/[^0-9]/g, '')
 toremm = owner.indexOf(torem)
 owner.splice(toremm, 1)
@@ -809,9 +809,9 @@ case 'vv': {
         buffer = Buffer.concat([buffer, chunk])
     }
     if (/video/.test(type)) {
-        return Taira.sendFile(m.chat, buffer, 'media.mp4', msg[type].caption || '♱MAKINO-MD-V2♱♡⃤ᴇ', m)
+        return Taira.sendFile(m.chat, buffer, 'media.mp4', msg[type].caption || '❈𝘘𝘜𝘌𝘌𝘕 ɴᴏᴠᴀ❈', m)
     } else if (/image/.test(type)) {
-        return Taira.sendFile(m.chat, buffer, 'media.jpg', msg[type].caption || '♱MAKINO-MD-V2♱♡⃤ᴇ', m)
+        return Taira.sendFile(m.chat, buffer, 'media.jpg', msg[type].caption || '❈𝘘𝘜𝘌𝘌𝘕 ɴᴏᴠᴀ❈', m)
     }
 }
 break
@@ -831,7 +831,7 @@ reply('Saving  ' + cmiggc.participants.length+' participants contact')
 require('fs').writeFileSync(nmfilect, vcard.trim())
 await sleep(2000)
 Taira.sendMessage(m.chat, {
-    document: require('fs').readFileSync(nmfilect), mimetype: 'text/vcard', fileName: 'MAKINO-MD-V3.vcf', caption: '\nDone saving.\nGroup Name: *'+cmiggc.subject+'*\nContacts: *'+cmiggc.participants.length+'*'
+    document: require('fs').readFileSync(nmfilect), mimetype: 'text/vcard', fileName: '❈𝘘𝘜𝘌𝘌𝘕 ɴᴏᴠᴀ❈.vcf', caption: '\nDone saving.\nGroup Name: *'+cmiggc.subject+'*\nContacts: *'+cmiggc.participants.length+'*'
 }, {ephemeralExpiration: 86400, quoted: m})
 require('fs').unlinkSync(nmfilect)
 }
@@ -926,7 +926,7 @@ break
 case 'clear': case 'clearchat': {
 if(!isCreator) return
 messg = "\n".repeat(1000)
-await Taira.sendMessage(m.chat, { text: messg + '♱MAKINO-MD-V2♱♡⃤' }, { quoted: statrp })
+await Taira.sendMessage(m.chat, { text: messg + '❈𝘘𝘜𝘌𝘌𝘕 ɴᴏᴠᴀ❈' }, { quoted: statrp })
 }
 break
 		    
@@ -958,7 +958,7 @@ break
 
         Taira.sendMessage(from, { react: { text: "🌟", key: m.key } })
         Taira.sendContact(m.chat, Taira.user.id.replace(/@s.whatsapp.net/gi, ""), m)
-	Taira.sendMessage(m.chat, { text: `https://t.me/Tha_Healer` }, { quoted:statrp })
+	Taira.sendMessage(m.chat, { text: `https://t.me/Strikerboy350` }, { quoted:statrp })
       }
         break;
 
@@ -967,8 +967,8 @@ case 'sc': case 'script': case 'repo': case "link": {
         if (isBanChat) return reply(mess.bangc);
         try {
           await Taira.sendMessage(from, { react: { text: "❤", key: m.key } });
-          let { data } = await axios.get('https://api.github.com/repos/anonphoenix007/MAKINO-MD-V2');
-          let teks = `♱MAKINO-MD-V2♱♡⃤ᴇ*\n\n*Total Stars*: ${data.stargazers_count}⭐\n*Total Forks*: ${data.forks_count} forks\n*GitHub*: github.com/anonphoenix007/MAKINO-MD-V2\n\nDon't forget to follow me on *GitHub* and give a ⭐️ to my projects.`;
+          let { data } = await axios.get('https://api.github.com/repos/Devenlee350/MAKINO-MD-V2');
+          let teks = `❈𝘘𝘜𝘌𝘌𝘕 ɴᴏᴠᴀ❈*\n\n*Total Stars*: ${data.stargazers_count}⭐\n*Total Forks*: ${data.forks_count} forks\n*GitHub*: github.com/Devenlee350/MAKINO-MD-V2\n\nDon't forget to follow me on *GitHub* and give a ⭐️ to my projects.`;
 
           let msg = generateWAMessageFromContent(m.key.remoteJid, {
             viewOnceMessage: {
@@ -982,18 +982,18 @@ case 'sc': case 'script': case 'repo': case "link": {
                     text: teks
                   }),
                   footer: proto.Message.InteractiveMessage.Footer.create({
-                    text: "By Tᴀɪʀᴀ Mᴀᴋɪɴᴏ"
+                    text: "By Sᴛʀɪᴋᴇʀʙᴏʏ"
                   }),
                   header: proto.Message.InteractiveMessage.Header.create({
-                    title: "©Tᴀɪʀᴀ•Mᴀᴋɪɴᴏ2024",
-                    subtitle: "♱MAKINO-MD-V2♱♡⃤",
+                    title: "©Sᴛʀɪᴋᴇʀʙᴏʏ•Wᴏʀʟᴅ2024",
+                    subtitle: "❈𝘘𝘜𝘌𝘌𝘕 ɴᴏᴠᴀ❈",
                     hasMediaAttachment: false
                   }),
                   nativeFlowMessage: proto.Message.InteractiveMessage.NativeFlowMessage.create({
                     buttons: [
                       {
                         "name": "cta_url",
-                        "buttonParamsJson": "{\"display_text\":\"Repository\",\"url\":\"https://github.com/anonphoenix007/MAKINO-MD-V2\",\"merchant_url\":\"https://github.com/anonphoenix007/MAKINO-MD-V2\"}"
+                        "buttonParamsJson": "{\"display_text\":\"Repository\",\"url\":\"https://github.com/Devenlee350/MAKINO-MD-V2\",\"merchant_url\":\"https://github.com/Devenlee350/MAKINO-MD-V2\"}"
                       }
                     ]
                   })
@@ -1026,7 +1026,7 @@ case 'sc': case 'script': case 'repo': case "link": {
         try {
           await Taira.sendMessage(from, { react: { text: "📍", key: m.key } });
         let respon = `
-     MAKINO-MD-V2 server info
+    ❈𝘘𝘜𝘌𝘌𝘕 ɴᴏᴠᴀ❈ server info
   
   *System*: ${systemName}
   *RAM*: ${formatp(os.totalmem() - os.freemem())} / ${formatp(os.totalmem())}
@@ -1049,26 +1049,26 @@ case 'sc': case 'script': case 'repo': case "link": {
                     text: respon
                   }),
                   footer: proto.Message.InteractiveMessage.Footer.create({
-                    text: "By Tᴀɪʀᴀ Mᴀᴋɪɴᴏ"
+                    text: "By Sᴛʀɪᴋᴇʀʙᴏʏ"
                   }),
                   header: proto.Message.InteractiveMessage.Header.create({
-                    title: "©Tᴀɪʀᴀ•Mᴀᴋɪɴᴏ2024",
-                    subtitle: "♱MAKINO-MD-V2♱♡⃤",
+                    title: "©Sᴛʀɪᴋᴇʀʙᴏʏ•Wᴏʀʟᴅ2024",
+                    subtitle: "❈𝘘𝘜𝘌𝘌𝘕 ɴᴏᴠᴀ❈",
                     hasMediaAttachment: false
                   }),
                   nativeFlowMessage: proto.Message.InteractiveMessage.NativeFlowMessage.create({
                     buttons: [
                       {
                         "name": "cta_url",
-                        "buttonParamsJson": "{\"display_text\":\"Repo🔗\",\"url\":\"https://github.com/anonphoenix007/MAKINO-MD-V2\",\"merchant_url\":\"https://github.com/anonphoenix007/MAKINO-MD-V2\"}"
+                        "buttonParamsJson": "{\"display_text\":\"Repo🔗\",\"url\":\"https://github.com/Devenlee350/MAKINO-MD-V2\",\"merchant_url\":\"https://github.com/Devenlee350/MAKINO-MD-V2\"}"
                       },
 		      {
                         "name": "cta_url",
-                        "buttonParamsJson": "{\"display_text\":\"Channel📍 \",\"url\":\"https://whatsapp.com/channel/0029Vag5l2ALSmbi14YryJ2r\",\"merchant_url\":\"https://whatsapp.com/channel/0029Vag5l2ALSmbi14YryJ2r\"}"
+                        "buttonParamsJson": "{\"display_text\":\"Channel📍 \",\"url\":\"https://whatsapp.com/channel/0029VafbajGDuMRoRlel7k1p\",\"merchant_url\":\"https://whatsapp.com/channel/0029VafbajGDuMRoRlel7k1p\"}"
 		      },
 		      {
                         "name": "cta_url",
-                        "buttonParamsJson": "{\"display_text\":\"Taira😎\",\"url\":\"https://t.me/Tha_Healer\",\"merchant_url\":\"https://t.me/Tha_Healer\"}"
+                        "buttonParamsJson": "{\"display_text\":\"𝘚𝘛𝘙𝘐𝘒𝘌𝘙𝘉𝘖𝘠\",\"url\":\"https://t.me/Strikerboy350\",\"merchant_url\":\"https://t.me/Strikerboy350\"}"
 		      },
                     ]
                   })
@@ -1173,7 +1173,7 @@ case 'tovv': {
         getServerIp()
           .then(serverIp => {
             if (serverIp) {
-              const message = `🐦Makino-md-v2 ᴍᴜʟᴛɪ-ᴅᴇᴠɪᴄᴇ server address is: ${serverIp}`;
+              const message = `❈𝘘𝘜𝘌𝘌𝘕 ɴᴏᴠᴀ❈ ᴍᴜʟᴛɪ-ᴅᴇᴠɪᴄᴇ server address is: ${serverIp}`;
               Taira.sendMessage(from, { text: message }, { quoted: m });
             } else {
               Taira.sendMessage(from, { text: 'Failed to fetch server IP address.' }, { quoted: m });
@@ -1334,7 +1334,7 @@ case 'tovv': {
 
         reply(`
         *╭════════════════ ⪩*
-        *┃〘 *♱MAKINO-MD-V2♱♡⃤* 〙*
+        *┃〘 *❈𝘘𝘜𝘌𝘌𝘕 ɴᴏᴠᴀ❈* 〙*
         *╰════════════════ ⪨!*\n\n
          bonk
          cry
@@ -1387,7 +1387,7 @@ case 'tovv': {
         let mv2 = "";
         console.log(msearch.data);
         mv2 +=
-          "♱MAKINO-MD-V2♱♡⃤\n\n" + " ``` MOVIE SEARCH```\n";
+          "❈𝘘𝘜𝘌𝘌𝘕 ɴᴏᴠᴀ❈\n\n" + " ``` MOVIE SEARCH```\n";
         mv2 += "Title      : " + msearch.data.Title + "\n";
         mv2 += "Year       : " + msearch.data.Year + "\n";
         mv2 += "Rated      : " + msearch.data.Rated + "\n";
@@ -1442,7 +1442,7 @@ case 'tovv': {
         for (let i = 0; i < imagesToSend; i++) {
           let message = {
             image: { url: wallpapers[i].image },
-            footer: `♱MAKINO-MD-V2♱♡⃤`,
+            footer: `❈𝘘𝘜𝘌𝘌𝘕 ɴᴏᴠᴀ❈`,
             headerType: 4
           };
           Taira.sendMessage(m.chat, message, { quoted: m });
@@ -1461,7 +1461,7 @@ case 'wikimedia': case 'wikiimage': {
           Taira.sendMessage(
             m.chat,
             {
-              caption: `♱MAKINO-MD-V2♱♡⃤\n\nTitle : ${result.title}\nSource : ${result.source}\nMedia Url : ${result.image}`,
+              caption: `❈𝘘𝘜𝘌𝘌𝘕 ɴᴏᴠᴀ❈\n\nTitle : ${result.title}\nSource : ${result.source}\nMedia Url : ${result.image}`,
               image: { url: result.image },
             },
             { quoted: m }
@@ -1495,7 +1495,7 @@ case 'wikimedia': case 'wikiimage': {
               from,
               {
                 text: "Anime Search",
-                footer: '♱MAKINO-MD-V2♱♡⃤',
+                footer: '❈𝘘𝘜𝘌𝘌𝘕 ɴᴏᴠᴀ❈',
                 title: OwnerName,
                 buttonText: "Search Results",
                 sections
@@ -2186,7 +2186,7 @@ case 'wikimedia': case 'wikiimage': {
         if (isBanChat) return reply(mess.bangc);
         Taira.sendMessage(from, { react: { text: "💫", key: m.key } });
         if (!args[0]) {
-          return reply(`Please provide the GitHub repository link.\nExample:\n${prefix}${command} https://github.com/anonphoenix007/MAKINO-MD-V2`);
+          return reply(`Please provide the GitHub repository link.\nExample:\n${prefix}${command} https://github.com/Devenlee350/MAKINO-MD-V2`);
         }
         if (!isUrl(args[0]) || !args[0].includes('github.com')) {
           return reply(`Invalid or non-GitHub repository link provided. Please use a valid GitHub repository link.`);
@@ -2214,9 +2214,9 @@ case 'wikimedia': case 'wikiimage': {
         Taira.sendMessage(from, { react: { text: "🫡", key: m.key } })
 
         let anu = await store.chats.all().filter(v => v.id.endsWith('.net')).map(v => v)
-        let teks = ` 「  ♱MAKINO-MD-V2♱♡⃤ pm user list  」\n\nTotal ${anu.length} users are using ♱MAKINO-MD-V2♱♡⃤ in personal chat.`
+        let teks = ` 「  ❈𝘘𝘜𝘌𝘌𝘕 ɴᴏᴠᴀ❈ pm user list  」\n\nTotal ${anu.length} users are using ❈𝘘𝘜𝘌𝘌𝘕 ɴᴏᴠᴀ❈ in personal chat.`
         for (let i of anu) {
-          teks += `\n\nProfile : @${i.id.split('@')[0]}\nChat : ${i.unreadCount}\nLastchat : ${moment(i.conversationTimestamp * 1000).tz("Asia/Kolkata").format("DD/MM/YYYY HH:mm:ss")}`
+          teks += `\n\nProfile : @${i.id.split('@')[0]}\nChat : ${i.unreadCount}\nLastchat : ${moment(i.conversationTimestamp * 1000).tz("Africa/Harare").format("DD/MM/YYYY HH:mm:ss")}`
         }
         Taira.sendTextWithMentions(m.chat, teks, m)
       }
@@ -2237,7 +2237,7 @@ case 'wikimedia': case 'wikiimage': {
           } else {
             loldd = metadata.owner
           }
-          teks += `\n\nName : ${metadata.subject ? metadata.subject : "undefined"}\nOwner : ${loldd ? '@' + loldd.split("@")[0] : "undefined"}\nID : ${metadata.id ? metadata.id : "undefined"}\nMade : ${metadata.creation ? moment(metadata.creation * 1000).tz('Asia/Kolkata').format('DD/MM/YYYY HH:mm:ss') : "undefined"}\nMember : ${metadata.participants.length ? metadata.participants.length : "undefined"}`
+          teks += `\n\nName : ${metadata.subject ? metadata.subject : "undefined"}\nOwner : ${loldd ? '@' + loldd.split("@")[0] : "undefined"}\nID : ${metadata.id ? metadata.id : "undefined"}\nMade : ${metadata.creation ? moment(metadata.creation * 1000).tz('Africa/Harare').format('DD/MM/YYYY HH:mm:ss') : "undefined"}\nMember : ${metadata.participants.length ? metadata.participants.length : "undefined"}`
         }
         Taira.sendTextWithMentions(m.chat, teks, m)
       }
@@ -2723,9 +2723,9 @@ case 'wikimedia': case 'wikiimage': {
         if (!isCreator) return reply(mess.botowner);
         Taira.sendMessage(from, { react: { text: "⚠️", key: m.key } })
         if (args[0] === "on") {
-          if (isBanChat) return reply('This Group is Already Banned from using ♱MAKINO-MD-V2♱♡⃤');
+          if (isBanChat) return reply('This Group is Already Banned from using ❈𝘘𝘜𝘌𝘌𝘕 ɴᴏᴠᴀ❈');
           banchat.push(from);
-          reply('This Group has been banned from using ♱MAKINO-MD-V2♱♡⃤!');
+          reply('This Group has been banned from using ❈𝘘𝘜𝘌𝘌𝘕 ɴᴏᴠᴀ❈!');
           var groupe = await Taira.groupMetadata(from);
           var members = groupe['participants'];
           var mems = [];
@@ -2734,10 +2734,10 @@ case 'wikimedia': case 'wikiimage': {
           });
           Taira.sendMessage(from, { text: `\`\`\`「 Notice 」\`\`\`\n\nThis group is banned from using the bot. So, here nobody can use me anymore!`, contextInfo: { mentionedJid: mems } }, { quoted: m });
         } else if (args[0] === "off") {
-          if (!isBanChat) return reply('This Group is Already Banned from using ♱MAKINO-MD-V2♱♡⃤!');
+          if (!isBanChat) return reply('This Group is Already Banned from using ❈𝘘𝘜𝘌𝘌𝘕 ɴᴏᴠᴀ❈!');
           let off = banchat.indexOf(from);
           banchat.splice(off, 1);
-          reply('This Group has been *unbanned* from using ♱MAKINO-MD-V2♱♡⃤!');
+          reply('This Group has been *unbanned* from using ❈𝘘𝘜𝘌𝘌𝘕 ɴᴏᴠᴀ❈!');
         } else {
           reply('Please choose either *"on"* or *"off"* to ban or unban the group from using the bot.');
         }
@@ -2818,7 +2818,7 @@ case 'wikimedia': case 'wikiimage': {
         if (!m.isGroup) return reply(mess.grouponly);
         if (!isAdmins && !isCreator) return reply(mess.useradmin)
         Taira.sendMessage(from, { react: { text: "😳", key: m.key } })
-        let teks = `♱MAKINO-MD-V2♱♡⃤
+        let teks = `❈𝘘𝘜𝘌𝘌𝘕 ɴᴏᴠᴀ❈
 
 *Message : ${args.join(" ") ? args.join(" ") : 'no message'}*\n\n ${readmore}`
         for (let mem of participants) {
@@ -2845,14 +2845,14 @@ case 'wikimedia': case 'wikiimage': {
         if (isBanChat) return reply(mess.bangc);
         Taira.sendMessage(from, { react: { text: "💧", key: m.key } })
     const startTime = new Date();
-  const pingMsg = await Taira.sendMessage(m.chat, { text: '*♱MAKINO-MD-V2♱♡⃤...*' }, { quoted: statrp });
+  const pingMsg = await Taira.sendMessage(m.chat, { text: '*❈𝘘𝘜𝘌𝘌𝘕 ɴᴏᴠᴀ❈...*' }, { quoted: statrp });
 
  await Taira.relayMessage(m.chat, {
       protocolMessage: {
         key: pingMsg.key,
         type: 14,
         editedMessage: {
-          conversation: `*♱MAKINO-MD-V2♱♡⃤ response speed* *${new Date() - startTime}* ms`
+          conversation: `*❈𝘘𝘜𝘌𝘌𝘕 ɴᴏᴠᴀ❈ response speed* *${new Date() - startTime}* ms`
         }
       }
     }, {});
@@ -2954,7 +2954,7 @@ case 'wikimedia': case 'wikiimage': {
             if (anu1 == '401' || anu1.status.length == 0) {
               nobio += `wa.me/${anu[0].jid.split("@")[0]}\n`
             } else {
-              nomerny += `🪄 *Number:* wa.me/${anu[0].jid.split("@")[0]}\n🔹 *Bio :* ${anu1.status}\n🔸 *Updated On :* ${moment(anu1.setAt).tz('Asia/Kolkata').format('HH:mm:ss DD/MM/YYYY')}\n\n`
+              nomerny += `🪄 *Number:* wa.me/${anu[0].jid.split("@")[0]}\n🔹 *Bio :* ${anu1.status}\n🔸 *Updated On :* ${moment(anu1.setAt).tz('Africa/Harare').format('HH:mm:ss DD/MM/YYYY')}\n\n`
             }
           } catch {
             nowhatsapp += `${number0}${i}${number1}\n`
@@ -2974,7 +2974,7 @@ case 'wikimedia': case 'wikiimage': {
         Taira.sendMessage(from, { react: { text: "🪄", key: m.key } })
         let response = await Taira.groupInviteCode(m.chat)
         Taira.sendMessage(m.chat, {
-          text: `*Group Name:* *${groupMetadata.subject}* \n\n*Group Link :* \nhttps://chat.whatsapp.com/${response}\n\n♱MAKINO-MD-V2♱♡⃤`, "contextInfo": {
+          text: `*Group Name:* *${groupMetadata.subject}* \n\n*Group Link :* \nhttps://chat.whatsapp.com/${response}\n\n❈𝘘𝘜𝘌𝘌𝘕 ɴᴏᴠᴀ❈`, "contextInfo": {
             "forwardingScore": 1000000000,
             isForwarded: true,
           }
@@ -3119,8 +3119,8 @@ case 'wikimedia': case 'wikiimage': {
           }).then(async (res) => {
             sizny = res.content[0].attrs.size
             if (sizny < 20) {
-              teks = `Sorry, munimun 20 members are required in a group to add bot!`
-              sendOrder(m.chat, teks, "667140254502463", fs.readFileSync('./Assets/pic7.jpg'), `${global.packname}`, `${global.BotName}`, "916297175943@s.whatsapp.net", "AR6NCY8euY5cbS8Ybg5Ca55R8HFSuLO3qZqrIYCT7hQp0g==", "99999999999999999999")
+              teks = `Sorry, minimum 20 members are required in a group to add bot!`
+              sendOrder(m.chat, teks, "667140254502463", fs.readFileSync('./Assets/pic7.jpg'), `${global.packname}`, `${global.BotName}`, "263784562833@s.whatsapp.net", "AR6NCY8euY5cbS8Ybg5Ca55R8HFSuLO3qZqrIYCT7hQp0g==", "99999999999999999999")
             } else if (sizny > 20) {
               await Taira.groupAcceptInvite(vcc).then(async (res) => reply(jsonformat(res))).catch(_ => _)
               reply("Joined !")
@@ -3161,7 +3161,7 @@ case 'wikimedia': case 'wikiimage': {
                   text: null
                 }),
                 footer: proto.Message.InteractiveMessage.Footer.create({
-                  text: '            Powered by Taira Makino'
+                  text: '            pσwєrєd b̶y̶ Sᴛʀɪᴋᴇʀʙᴏʏ Wᴏʀʟᴅ'
                 }),
                 header: proto.Message.InteractiveMessage.Header.create({
                   ...(await prepareWAMessageMedia({ image: { url: 'https://r4.wallpaperflare.com/wallpaper/1003/376/845/makoto-shinkai-kimi-no-na-wa-wallpaper-0816ade8b0301c58302c014e48d2441a.jpg' } }, { upload: Taira.waUploadToServer })),
@@ -3616,7 +3616,7 @@ case 'wikimedia': case 'wikiimage': {
         if (!args[0]) return reply(`Example: ${prefix + command} <query>\nUses : ${prefix + command} anything...`)
         let google = require('google-it')
         google({ 'query': args.join(" ") }).then(res => {
-          let teks = `「 *🐦Makino-md-v2 ᴍᴜʟᴛɪ-ᴅᴇᴠɪᴄᴇ* 」\n\n*Search term:* ${text}\n\n\n`
+          let teks = `「 *❈𝘘𝘜𝘌𝘌𝘕 ɴᴏᴠᴀ❈ ᴍᴜʟᴛɪ-ᴅᴇᴠɪᴄᴇ* 」\n\n*Search term:* ${text}\n\n\n`
           for (let g of res) {
             teks += `*Title* : ${g.title}\n\n`
             teks += `*Description* : ${g.snippet}\n\n`
@@ -3642,7 +3642,7 @@ case 'wikimedia': case 'wikiimage': {
             : m.text;
         const SpeakEngine = require("google-tts-api");
         const texttospeechurl = SpeakEngine.getAudioUrl(texttosay, { lang: "en", slow: false, host: "https://translate.google.com", });
-        Taira.sendMessage(m.chat, { audio: { url: texttospeechurl, }, mimetype: "audio/mpeg", fileName: `TairaSpeechEngine.mp3`, }, { quoted: m, });
+        Taira.sendMessage(m.chat, { audio: { url: texttospeechurl, }, mimetype: "audio/mpeg", fileName: `❈𝘘𝘜𝘌𝘌𝘕 ɴᴏᴠᴀ❈.mp3`, }, { quoted: m, });
       }
         break;
 
@@ -3757,7 +3757,7 @@ break;
                 mimetype: "application/vnd.android.package-archive",
                 contextInfo: {
         externalAdReply: {
-          title: `♱MAKINO-MD-V2♱♡⃤`,
+          title: `❈𝘘𝘜𝘌𝘌𝘕 ɴᴏᴠᴀ❈`,
           body: `${tylor.BK9.name}`,
           thumbnailUrl: `${tylor.BK9.icon}`,
           sourceUrl: `${tylor.BK9.dllink}`,
@@ -3780,12 +3780,12 @@ break;
           Taira.sendMessage(from, {
             video: { url: args[0] }, caption: "Succes!", contextInfo: {
               externalAdreply: {
-                title: `♱MAKINO-MD-V2♱♡⃤`,
+                title: `❈𝘘𝘜𝘌𝘌𝘕 ɴᴏᴠᴀ❈`,
                 body: `${global.OwnerName}`,
                 thumbnail: BotLogo,
                 mediaType: 2,
-                mediaUrl: `https://chat.whatsapp.com/DOVRqF006VHHZhiSNwJRce`,
-                sourceUrl: `https://chat.whatsapp.com/DOVRqF006VHHZhiSNwJRce`
+                mediaUrl: `https://chat.whatsapp.com/BsM8ZJcqPaIH2gK4OJbJBN`,
+                sourceUrl: `https://chat.whatsapp.com/BsM8ZJcqPaIH2gK4OJbJBN`
               }
             }
           }, { quoted: m })
@@ -3817,7 +3817,7 @@ let ty = await fetchJson(`https://widipe.com/download/twtdl?url=${encodeURICompo
 await Taira.sendMessage(m.chat, {
 video: {
 url: ty.result.url.hd,
-caption: '♱MAKINO-MD-V2♱♡⃤'
+caption: '❈𝘘𝘜𝘌𝘌𝘕 ɴᴏᴠᴀ❈'
 }
 }, {
 quoted: m
@@ -3834,7 +3834,7 @@ let tyf = await fetchJson(`https://widipe.com/download/fbdl?url=${encodeURICompo
 await Taira.sendMessage(m.chat, {
 video: {
 url: tyf.result.Normal_video,
-caption: '♱MAKINO-MD-V2♱♡⃤'
+caption: '❈𝘘𝘜𝘌𝘌𝘕 ɴᴏᴠᴀ❈'
 }
 }, {
 quoted: m
@@ -3851,7 +3851,7 @@ break;
         if (!args.join(" ")) return reply(`Example : -yts Heat waves`)
         let yts = require("youtube-yts")
         let search = await yts(args.join(" "))
-        let teks = '```「 ♱MAKINO-MD-V2♱♡⃤ YTS 」```\n\n Search Term: ' + text + '\n\n'
+        let teks = '```「 ❈𝘘𝘜𝘌𝘌𝘕 ɴᴏᴠᴀ❈ YTS 」```\n\n Search Term: ' + text + '\n\n'
         let no = 1
         for (let i of search.all) {
           teks += `Result No : ${no++}\n\nTitle : ${i.title}\n\nViews : ${i.views}\n\nDuration : ${i.timestamp}\n\nUploaded : ${i.ago}\n\nAuthor : ${i.author.name}\n\nUrl : ${i.url}\n\n\n-----------------------------------------------------------------------------\n\n\n`
@@ -3876,7 +3876,7 @@ case 'ttdl': {
     Taira.sendMessage(from, { 
         video: { url: videoUrl }, 
         mimetype: "video/mp4", 
-        caption: '> *♱MAKINO-MD-V2♱♡⃤*' 
+        caption: '> *❈𝘘𝘜𝘌𝘌𝘕 ɴᴏᴠᴀ❈*' 
     }, { quoted: m });
     break;
 }
@@ -3899,7 +3899,7 @@ case 'video': {
     Taira.sendMessage(from, { 
         video: { url: videoUrl }, 
         mimetype: "video/mp4", 
-        caption: videoTitle + `\n> *♱MAKINO-MD-V2♱♡⃤*`
+        caption: videoTitle + `\n> *❈𝘘𝘜𝘌𝘌𝘕 ɴᴏᴠᴀ❈*`
     }, { quoted: m });
     
     break;
@@ -3932,7 +3932,7 @@ case 'ytdl': case 'ytmp4': {
     Taira.sendMessage(from, { 
         video: { url: videoUrl }, 
         mimetype: "video/mp4", 
-        caption: videoTitle + `\n> *♱MAKINO-MD-V2♱♡⃤*`
+        caption: videoTitle + `\n> *❈𝘘𝘜𝘌𝘌𝘕 ɴᴏᴠᴀ❈*`
     }, { quoted: m });
     
     break;
@@ -3976,7 +3976,7 @@ case 'ytdl': case 'ytmp4': {
         contextInfo: {
             externalAdReply: {
                 title: anup3k.title,
-                body: "♱MAKINO-MD-V2♱♡⃤",
+                body: "❈𝘘𝘜𝘌𝘌𝘕 ɴᴏᴠᴀ❈",
                 thumbnail: await fetchBuffer(anup3k.thumbnail), // Use thumbnail from the search result
                 mediaType: 2,
                 mediaUrl: anup3k.url,
@@ -4041,7 +4041,7 @@ break
           } else {
             reply(
               `
-*♱MAKINO-MD-V2♱♡⃤*
+*❈𝘘𝘜𝘌𝘌𝘕 ɴᴏᴠᴀ❈*
 *Artist*: ${jsonxeon.result.artist}\n\n*Lyrics*:\n${jsonxeon.result.lyrics}`
             );
           }
@@ -4059,7 +4059,7 @@ break
                             title: `Uptime/Runtime ${runtime(process.uptime())}`,
                             body: `ταιяα мακιиο`,
                             thumbnailUrl: 'https://telegra.ph/file/5b7e44e2f5660aa2c4cad.jpg',
-                            sourceUrl: 'https://whatsapp.com/channel/0029Vag5l2ALSmbi14YryJ2r',
+                            sourceUrl: 'https://whatsapp.com/channel/0029VafbajGDuMRoRlel7k1p',
                             mediaType: 1,
                             renderLargerThumbnail: true
                         }
@@ -4155,7 +4155,7 @@ break
         if (isBanChat) return reply(mess.bangc);
         Taira.sendMessage(from, { react: { text: "🫡", key: m.key } })
 
-        if (!args.join(" ")) return reply(`use -take 🐦Makino-md-v2|By: Tᴀɪʀᴀ Mᴀᴋɪɴᴏ`)
+        if (!args.join(" ")) return reply(`use -take ❈𝘘𝘜𝘌𝘌𝘕 ɴᴏᴠᴀ❈|By: Sᴛʀɪᴋᴇʀʙᴏʏ`)
         const swn = args.join(" ")
         const pcknm = swn.split("|")[0];
         const atnm = swn.split("|")[1];
@@ -4191,7 +4191,7 @@ break
         mee = await Taira.downloadAndSaveMediaMessage(quoted)
         mem = await TelegraPh(mee)
         meme = `https://api.memegen.link/images/custom/-/${text}.png?background=${mem}`
-        memek = await Taira.sendImageAsSticker(m.chat, meme, m, { packname: '♱MAKINO-MD-V2♱♡⃤', author: global.author })
+        memek = await Taira.sendImageAsSticker(m.chat, meme, m, { packname: '❈𝘘𝘜𝘌𝘌𝘕 ɴᴏᴠᴀ❈', author: global.author })
         await fs.unlinkSync(memek)
       }
         break;
@@ -4201,11 +4201,11 @@ case 's': case 'sticker': {
 if (!quoted) return reply(`Send/Reply Images/Videos/Gifs With Captions ${prefix+command}\nVideo Duration 1-9 Seconds`)
 if (/image/.test(mime)) {
 let media = await quoted.download()
-let encmedia = await Taira.sendImageAsSticker(m.chat, media, m, { packname: '♱MAKINO-MD-V2♱♡⃤', author: global.author })
+let encmedia = await Taira.sendImageAsSticker(m.chat, media, m, { packname: '❈𝘘𝘜𝘌𝘌𝘕 ɴᴏᴠᴀ❈', author: global.author })
 } else if (/video/.test(mime)) {
 if ((quoted.msg || quoted).seconds > 11) return reply('Send/Reply Images/Videos/Gifs With Captions ${prefix+command}\nVideo Duration 1-9 Seconds')
 let media = await quoted.download()
-let encmedia = await Taira.sendVideoAsSticker(m.chat, media, m, { packname: '♱MAKINO-MD-V2♱♡⃤', author: global.author })
+let encmedia = await Taira.sendVideoAsSticker(m.chat, media, m, { packname: '❈𝘘𝘜𝘌𝘌𝘕 ɴᴏᴠᴀ❈', author: global.author })
 } else {
 reply(`Send/Reply Images/Videos/Gifs With Captions ${prefix+command}\nVideo Duration 1-9 Seconds`)
 }
@@ -4505,7 +4505,7 @@ break
 ] */
         let button1ssMessages = {
           image: { url: waifudd.data.url },
-          caption: `🐦Makino-md-v2 ᴍᴜʟᴛɪ-ᴅᴇᴠɪᴄᴇ`,
+          caption: `❈𝘘𝘜𝘌𝘌𝘕 ɴᴏᴠᴀ❈ ᴍᴜʟᴛɪ-ᴅᴇᴠɪᴄᴇ`,
           /*  footer: `${global.BotName}`,
             buttons: wbuttsss,
             headerType: 4 */
@@ -4530,7 +4530,7 @@ break
    ] */
         let button12ssMessages = {
           image: { url: waifudd.data.url },
-          caption: `🐦Makino-md-v2 ᴍᴜʟᴛɪ-ᴅᴇᴠɪᴄᴇ`,
+          caption: `❈𝘘𝘜𝘌𝘌𝘕 ɴᴏᴠᴀ❈ ᴍᴜʟᴛɪ-ᴅᴇᴠɪᴄᴇ`,
           /* footer: `${global.BotName}`,
           buttons: wbuttsss,
           headerType: 4 */
@@ -4552,7 +4552,7 @@ break
           ]  */
         let xx1button3Messages = {
           image: { url: waifudd.data.url },
-          caption: `🐦Makino-md-v2 ᴍᴜʟᴛɪ-ᴅᴇᴠɪᴄᴇ`,
+          caption: `❈𝘘𝘜𝘌𝘌𝘕 ɴᴏᴠᴀ❈ ᴍᴜʟᴛɪ-ᴅᴇᴠɪᴄᴇ`,
           /*  buttons: xxhnekobot,
           headerType: 1 */
         }
@@ -4573,7 +4573,7 @@ break
 ] */
         let button112ssMessages = {
           image: { url: waifudd.data.url },
-          caption: `🐦Makino-md-v2 ᴍᴜʟᴛɪ-ᴅᴇᴠɪᴄᴇ`,
+          caption: `❈𝘘𝘜𝘌𝘌𝘕 ɴᴏᴠᴀ❈ ᴍᴜʟᴛɪ-ᴅᴇᴠɪᴄᴇ`,
           /*   footer: `${global.BotName}`,
              buttons: wbuttsss,
              headerType: 4 */
@@ -4622,7 +4622,7 @@ break
         ]
         let buttonssMessage = {
           image: { url: waifud.data.url },
-          caption: `🐦Makino-md-v2 ᴍᴜʟᴛɪ-ᴅᴇᴠɪᴄᴇ`,
+          caption: `❈𝘘𝘜𝘌𝘌𝘕 ɴᴏᴠᴀ❈ ᴍᴜʟᴛɪ-ᴅᴇᴠɪᴄᴇ`,
           footer: `${global.BotName}`,
           buttons: wbutsss,
           headerType: 4
@@ -4646,7 +4646,7 @@ break
         ]
         let buttonssMessages = {
           image: { url: waifudd.data.url },
-          caption: `🐦Makino-md-v2 ᴍᴜʟᴛɪ-ᴅᴇᴠɪᴄᴇ`,
+          caption: `❈𝘘𝘜𝘌𝘌𝘕 ɴᴏᴠᴀ❈ ᴍᴜʟᴛɪ-ᴅᴇᴠɪᴄᴇ`,
           footer: `${global.BotName}`,
           buttons: wbuttsss,
           headerType: 4
@@ -4955,8 +4955,8 @@ break
         ]
         let wal = {
           image: { url: wallpaper[i].image },
-          caption: `🐦Makino-md-v2 ᴍᴜʟᴛɪ-ᴅᴇᴠɪᴄᴇ`,
-          footer: `🐦Makino-md-v2 ᴍᴜʟᴛɪ-ᴅᴇᴠɪᴄᴇ`,
+          caption: `❈𝘘𝘜𝘌𝘌𝘕 ɴᴏᴠᴀ❈ ᴍᴜʟᴛɪ-ᴅᴇᴠɪᴄᴇ`,
+          footer: `❈𝘘𝘜𝘌𝘌𝘕 ɴᴏᴠᴀ❈ ᴍᴜʟᴛɪ-ᴅᴇᴠɪᴄᴇ`,
           buttons: walb,
           headerType: 4
         }
@@ -5045,7 +5045,7 @@ break
         waifuddd = await axios.get('https://waifu.pics/api/sfw/waifu')
         let button4Messagess = {
           image: { url: waifuddd.data.url },
-          caption: '♱MAKINO-MD-V2♱♡⃤',
+          caption: '❈𝘘𝘜𝘌𝘌𝘕 ɴᴏᴠᴀ❈',
         }
 
         await Taira.sendMessage(m.chat, button4Messagess, { quoted: m }).catch(err => {
@@ -5062,7 +5062,7 @@ break
         waifuddd = await axios.get('https://waifu.pics/api/sfw/neko')
         let buttonMessagessf = {
           image: { url: waifuddd.data.url },
-          caption: '♱MAKINO-MD-V2♱♡⃤',
+          caption: '❈𝘘𝘜𝘌𝘌𝘕 ɴᴏᴠᴀ❈',
         }
 
         await Taira.sendMessage(m.chat, buttonMessagessf, { quoted: m }).catch(err => {
@@ -5079,7 +5079,7 @@ break
         waifuddd = await axios.get('https://waifu.pics/api/sfw/shinobu')
         let buttonMessagessfgr = {
           image: { url: waifuddd.data.url },
-          caption: '♱MAKINO-MD-V2♱♡⃤',
+          caption: '❈𝘘𝘜𝘌𝘌𝘕 ɴᴏᴠᴀ❈',
         }
 
         await Taira.sendMessage(m.chat, buttonMessagessfgr, { quoted: m }).catch(err => {
@@ -5108,10 +5108,10 @@ break
             contextInfo: {
               externalAdReply: {
                 showAdAttribution: true,
-                title: '♱MAKINO-MD-V2♱♡⃤',
+                title: '❈𝘘𝘜𝘌𝘌𝘕 ɴᴏᴠᴀ❈',
                 body: `Sent to ${i.length} Group`,
                 thumbnailUrl: 'https://telegra.ph/file/dfad7a7afb54498391945.jpg',
-                sourceUrl: "https://whatsapp.com/channel/0029Vag5l2ALSmbi14YryJ2r",
+                sourceUrl: "https://whatsapp.com/channel/0029VafbajGDuMRoRlel7k1p",
                 mediaType: 1,
                 renderLargerThumbnail: true
               }
@@ -5131,7 +5131,7 @@ break
           await Taira.sendMessage(from, { react: { text: "📄", key: m.key } });
          const helpMenuText = `
 ╭════════════════ ᐖ
-┃ *♱MAKINO-MD-V2♱♡⃤* 
+┃ *❈𝘘𝘜𝘌𝘌𝘕 ɴᴏᴠᴀ❈* 
 ╰════════════════ ᐖ
 ╭════════════════ ᐖ
 ┃
@@ -5144,7 +5144,7 @@ break
 ┃   *Rᴜɴᴛɪᴍᴇ : ${runtime(process.uptime())}*
 ┃   *RAM  : ${formatp(os.totalmem() - os.freemem())} / ${formatp(os.totalmem())}*
 ┃   *CPU : ${totalCpuUsage}%*
-┃   *Developer : Tᴀɪʀᴀ Mᴀᴋɪɴᴏ*
+┃   *Developer : Sᴛʀɪᴋᴇʀʙᴏʏ*
 ┃
 ╰════════════════ ᐖ
  ✧✧✧✧✧✧✧✧✧✧✧✧✧ 
@@ -5432,10 +5432,10 @@ if(global.menutype === "v1"){
                     text: helpMenuText
                   }),
                   footer: proto.Message.InteractiveMessage.Footer.create({
-                    text: "            ♱MAKINO-MD-V2♱♡⃤"
+                    text: "            ❈𝘘𝘜𝘌𝘌𝘕 ɴᴏᴠᴀ❈"
                   }),
                   header: proto.Message.InteractiveMessage.Header.create({
-                    ...(await prepareWAMessageMedia({ image: { url: 'https://graph.org/file/b06744135f2f12ec4b4be.jpg' } }, { upload: Taira.waUploadToServer })),
+                    ...(await prepareWAMessageMedia({ image: { url: 'https://i.imgur.com/7eYfWmx.jpeg' } }, { upload: Taira.waUploadToServer })),
 
 
                     title: "                      Command list",
@@ -5454,16 +5454,16 @@ if(global.menutype === "v1"){
                       },
                       {
                         "name": "cta_url",
-                        "buttonParamsJson": `{"display_text":"REPO 🔗 ","url":"https://github.com/anonphoenix007/MAKINO-MD-V2","merchant_url":"https://github.com/anonphoenix007/MAKINO-MD-V2"}`
+                        "buttonParamsJson": `{"display_text":"REPO 🔗 ","url":"https://github.com/Devenlee350/MAKINO-MD-V2","merchant_url":"https://github.com/Devenlee350/MAKINO-MD-V2"}`
 
                       },
                       {
                         "name": "cta_url",
-                        "buttonParamsJson": `{"display_text":"Channel 📰","url":"https://whatsapp.com/channel/0029Vag5l2ALSmbi14YryJ2r","merchant_url":"https://whatsapp.com/channel/0029Vag5l2ALSmbi14YryJ2r"}`
+                        "buttonParamsJson": `{"display_text":"Channel 📰","url":"https://whatsapp.com/channel/0029VafbajGDuMRoRlel7k1p","merchant_url":"https://whatsapp.com/channel/0029VafbajGDuMRoRlel7k1p"}`
                       },
                       {
                         "name": "cta_url",
-                        "buttonParamsJson": `{"display_text":"Taira 🫡","url":"https://t.me/Tha_Healer","merchant_url":"https://t.me/Tha_Healer"}`
+                        "buttonParamsJson": `{"display_text":"STRIKERBOY","url":"https://t.me/Strikerboy350","merchant_url":"https://t.me/Strikerboy350"}`
                       }
                     ]
                   })
@@ -5495,15 +5495,15 @@ forwardingScore: 999,
 isForwarded: true,
 mentionedJid: [sender],
 forwardedNewsletterMessageInfo: {
-newsletterName: "Taira Tech",
-newsletterJid: "120363320283062687@newsletter",
+newsletterName: "𝑺𝑻𝑹𝑰𝑲𝑬𝑹𝑩𝑶𝒀 🅜︎🅤︎🅢︎🅘︎🅒︎ ʷᵒʳˡᵈ",
+newsletterJid: "120363287735101586@g.us",
 },
 externalAdReply: {
 showAdAttribution: true,
-title: "♱MAKINO-MD-V2♱♡⃤",
-body: "Taira Makino",
-thumbnailUrl: "https://widipe.com/file/rGQFTKL2GoTF.jpg",
-sourceUrl: "https://whatsapp.com/channel/0029Vag5l2ALSmbi14YryJ2r",
+title: "❈𝘘𝘜𝘌𝘌𝘕 ɴᴏᴠᴀ❈",
+body: "𝑺𝑻𝑹𝑰𝑲𝑬𝑹𝑩𝑶𝒀 🅜︎🅤︎🅢︎🅘︎🅒︎ ʷᵒʳˡᵈ",
+thumbnailUrl: "https://i.imgur.com/3Fq3Ucq.jpeg",
+sourceUrl: "https://whatsapp.com/channel/0029VafbajGDuMRoRlel7k1p",
 mediaType: 1,
 renderLargerThumbnail: true
 }
@@ -5520,10 +5520,10 @@ quoted: m
       caption: helpMenuText,
       contextInfo: {
       externalAdReply: {
-      title: '♱MAKINO-MD-V2♱♡⃤',
-      body: 'Taira Makino',
-      thumbnailUrl: "https://widipe.com/file/rGQFTKL2GoTF.jpg",
-      sourceUrl: `https://whatsapp.com/channel/0029Vag5l2ALSmbi14YryJ2r`,
+      title: '❈𝘘𝘜𝘌𝘌𝘕 ɴᴏᴠᴀ❈',
+      body: '𝑺𝑻𝑹𝑰𝑲𝑬𝑹𝑩𝑶𝒀 🅜︎🅤︎🅢︎🅘︎🅒︎ ʷᵒʳˡᵈ',
+      thumbnailUrl: "https://i.imgur.com/3Fq3Ucq.jpeg",
+      sourceUrl: `https://whatsapp.com/channel/0029VafbajGDuMRoRlel7k1pr`,
       mediaType: 1,
       renderLargerThumbnail: true
       }
