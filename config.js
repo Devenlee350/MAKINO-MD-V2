@@ -17,14 +17,14 @@ global.anticall = false
 
 
 global.SESSION_ID = process.env.SESSION_ID || ""
-global.Owner = ["2349151864541"]; //like 2347080968564 
-global.OwnerName =  "Tᴀɪʀᴀ Mᴀᴋɪɴᴏ";
-global.BotName = "♱MAKINO-MD-V2♱♡⃤";
-global.packname = "♱MAKINO-MD-V2♱♡⃤";                             //Do not change.
-global.author = "TAIRA MAKINO";                               //Do not change.
-global.BotSourceCode = "https://github.com/anonphoenix007/MAKINO-MD-V2"; //Do not change.
-global.SupportGroupLink = "https://chat.whatsapp.com/DOVRqF006VHHZhiSNwJRce"; 
-global.SupportGroupLink = "https://chat.whatsapp.com/DOVRqF006VHHZhiSNwJRce"; //Do not change!
+global.Owner = ["263784562833"]; //like 2347080968564 
+global.OwnerName =  "Sᴛʀɪᴋᴇʀʙᴏʏ";
+global.BotName = "❈𝘘𝘜𝘌𝘌𝘕 ɴᴏᴠᴀ❈";
+global.packname = "❈𝘘𝘜𝘌𝘌𝘕 ɴᴏᴠᴀ❈";                             //Do not change.
+global.author = "STRIKERBOY";                               //Do not change.
+global.BotSourceCode = "https://github.com/Devenlee350/MAKINO-MD-V2"; //Do not change.
+global.SupportGroupLink = "https://chat.whatsapp.com/BsM8ZJcqPaIH2gK4OJbJBN"; 
+global.SupportGroupLink = "https://chat.whatsapp.com/BsM8ZJcqPaIH2gK4OJbJBN"; //Do not change!
 global.menutype = "v3"
 
 global.prefa = ['','!','.',','] 
