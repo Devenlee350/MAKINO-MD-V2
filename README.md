@@ -1,10 +1,10 @@
 <p align="center">
-<a href="https://github.com/anonphoenix007"><img title="Author" src="https://img.shields.io/badge/Author_Of-MAKINO_V2-black"></a>
+<a href="https://github.com/Devenlee350"><img title="Author" src="https://img.shields.io/badge/Author_Of-QUEEN-NOVA-black"></a>
 
 <p align="center">  
-  <a href="https://t.me/Tha_Healer">
-    <img alt="X-2.0" height="300" src="https://telegra.ph/file/7aa528767ed96ddc17bc2.jpg">
-    <h1 align="center">MAKINO-MD-V2</h1>
+  <a href="https://t.me/Strikerboy350">
+    <img alt="X-2.0" height="300" src="https://i.imgur.com/7eYfWmx.jpeg">
+    <h1 align="center">❈𝘘𝘜𝘌𝘌𝘕 ɴᴏᴠᴀ❈</h1>
     <h4 align="center">Minor Update available.</h4>
     <h3 align="center">Downloaders fixed</h3>
     <h3 align="center">vv antiviewonce command</h3>
@@ -13,13 +13,13 @@
   </a>
 </p>
 <p align="center">
-<a href="https://github.com/anonphoenix007"><img title="Author" src="https://img.shields.io/badge/Makino-MDv2-black?style=for-the-badge&logo=twitter"></a>
+<a href="https://github.com/Devenlee350"><img title="Author" src="https://img.shields.io/badge/Makino-MDv2-black?style=for-the-badge&logo=twitter"></a>
 <p/>
 <p align="center">
-<a href="https://github.com/anonphoenix007?tab=followers"><img title="Followers" src="https://img.shields.io/github/followers/anonphoenix007?label=Followers&style=social"></a>
-<a href="https://github.com/anonphoenix007/MAKINO-MD-V2/stargazers/"><img title="Stars" src="https://img.shields.io/github/stars/anonphoenix007/MAKINO-MD-V2?&style=social"></a>
-<a href="https://github.com/anonphoenix007/MAKINO-MD-V2/network/members"><img title="Fork" src="https://img.shields.io/github/forks/anonphoenix007/MAKINO-MD-V2?style=social"></a>
-<a href="https://github.com/anonphoenix007/MAKINO-MD-V2/watchers"><img title="Watching" src="https://img.shields.io/github/watchers/anonphoenix007/MAKINO-MD-V2?label=Watching&style=social"></a>
+<a href="https://github.com/Devenlee350?tab=followers"><img title="Followers" src="https://img.shields.io/github/followers/Devenlee350?label=Followers&style=social"></a>
+<a href="https://github.com/Devenlee350/MAKINO-MD-V2/stargazers/"><img title="Stars" src="https://img.shields.io/github/stars/Devenlee350/MAKINO-MD-V2?&style=social"></a>
+<a href="https://github.com/anonphoenix007/MAKINO-MD-V2/network/members"><img title="Fork" src="https://img.shields.io/github/forks/Devenlee350/MAKINO-MD-V2?style=social"></a>
+<a href="https://github.com/Devenlee350/MAKINO-MD-V2/watchers"><img title="Watching" src="https://img.shields.io/github/watchers/Devenlee350/MAKINO-MD-V2?label=Watching&style=social"></a>
 </p>
 
 #### Notice
@@ -31,7 +31,7 @@ If you create a clone of my bot then Don't forget to give ***Credit***
 
 1. Fork the repo
     <br>
-<a href="https://github.com/anonphoenix007/MAKINO-MD-V2/fork"><img title="MAKINO-MD-V2" src="https://img.shields.io/badge/FORK_MAKINO-MD_V2-h?color=black&style=for-the-badge&logo=stackshare"></a>
+<a href="https://github.com/Devenlee350/MAKINO-MD-V2/fork"><img title="MAKINO-MD-V2" src="https://img.shields.io/badge/FORK_MAKINO-MD_V2-h?color=black&style=for-the-badge&logo=stackshare"></a>
 
 2. Scan or pair to get session ID
     <br>
@@ -42,9 +42,9 @@ If you create a clone of my bot then Don't forget to give ***Credit***
 1. Fork This Repository 
 2. Update [`config.js`] if you want more functions or skip
 ```js
-global.Owner = ["2347080968564"]; 
-global.OwnerName = "Tᴀɪʀᴀ Mᴀᴋɪɴᴏ";
-global.BotName = "♱MAKINO-MD-V2♱♡⃤";
+global.Owner = ["263784562833"]; 
+global.OwnerName = "STRIKERBOY";
+global.BotName = "❈𝘘𝘜𝘌𝘌𝘕 ɴᴏᴠᴀ❈";
 global.SESSION_ID = process.env.SESSION_ID || "" //session ID here
 ```
 3.  put your session ID in global.SESSION_ID
@@ -55,7 +55,7 @@ global.SESSION_ID = process.env.SESSION_ID || "" //session ID here
 <a href='https://signup.heroku.com/' target="_blank"><img alt='Heroku' src='https://img.shields.io/badge/-Create-black?style=for-the-badge&logo=heroku&logoColor=white'/></a>
 
 2. Now Deploy
-    <a href='https://dashboard.heroku.com/new?template=https://github.com/Anonphoenix007/MAKINO-MD-V2' target="_blank"><img alt='DEPLOY Heroku' src='https://img.shields.io/badge/-Deploy-black?style=for-the-badge&logo=heroku&logoColor=white'/></a>
+    <a href='https://dashboard.heroku.com/new?template=https://github.com/Devenlee350/MAKINO-MD-V2' target="_blank"><img alt='DEPLOY Heroku' src='https://img.shields.io/badge/-Deploy-black?style=for-the-badge&logo=heroku&logoColor=white'/></a>
 
 
 #### DEPLOY TO CODESPACE
@@ -112,12 +112,12 @@ global.SESSION_ID = process.env.SESSION_ID || "" //session ID here
 ---
 # `Guide`📕
 
-- [Full Deploy Explanation & Termux Deploy & Vps Deploy](https://github.com/anonphoenix007/MAKINO-MD-V2/blob/main/guide.md)
+- [Full Deploy Explanation & Termux Deploy & Vps Deploy](https://github.com/Devenlee350/MAKINO-MD-V2/blob/main/guide.md)
 ---
 
 ## ```Support Me```
-<a href='https://www.instagram.com/anonphoenix007' target="_blank"><img alt='Instagram' src='https://img.shields.io/badge/CONTACT-h?color=black&style=for-the-badge&logo=instagram' width="96.35" height="28"/></a></p>
-<a href='https://t.me/Tha_Healer' target="_blank"><img alt='Telegram' src='https://img.shields.io/badge/CONTACT-h?color=black&style=for-the-badge&logo=Telegram' width="96.35" height="28"/></a></p>
+<a href='https://www.instagram.com/Strikerboy350' target="_blank"><img alt='Instagram' src='https://img.shields.io/badge/CONTACT-h?color=black&style=for-the-badge&logo=instagram' width="96.35" height="28"/></a></p>
+<a href='https://t.me/Strikerboy350' target="_blank"><img alt='Telegram' src='https://img.shields.io/badge/CONTACT-h?color=black&style=for-the-badge&logo=Telegram' width="96.35" height="28"/></a></p>
 <a href='https://chat.whatsapp.com/DOVRqF006VHHZhiSNwJRce' target="_blank"><img alt='Whatsapp' src='https://img.shields.io/badge/OFFICIAL-GC-h?color=black&style=for-the-badge&logo=whatsapp' width="96.35" height="28"/></a></p>
 <a href='https://whatsapp.com/channel/0029Vag5l2ALSmbi14YryJ2r' target="_blank"><img alt='Whatsapp' src='https://img.shields.io/badge/OFFICIAL-Channel-h?color=black&style=for-the-badge&logo=whatsapp' width="96.35" height="28"/></a></p>
 <a href='https://www.youtube.com' target="_blank"><img alt='Youtube' src='https://img.shields.io/badge/SUBSCRIBE-h?color=black&style=for-the-badge&logo=youtube' width="96.35" height="28"/></a></p>
