@@ -67,7 +67,7 @@ global.mess = {
     privateonly: 'This command is only made for *Private Chat*',
     botonly: 'Only the *Bot itself* can use this command!',
     waiting: 'Wait a lil bit (¬_¬)ﾉ...',
-    nolink: ' provide me *link*',
+    nolink: ' provide me *link* eg http://google.com',
     error: 'An error occurd!',
     banned: 'You cant use the commands because you Are *Banned*',
     bangc: 'This Group is *Banned* from using Commands!',
