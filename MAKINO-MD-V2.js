@@ -2584,7 +2584,7 @@ case 'wikimedia': case 'wikiimage': {
           members.map(async adm => {
             mems.push(adm.id.replace('c.us', 's.whatsapp.net'))
           })
-          Taira.sendMessage(from, { text: `\`\`\`「 Warning 」\`\`\`\n\nAntilink System Activated!`, contextInfo: { mentionedJid: mems } }, { quoted: m })
+          Taira.sendMessage(from, { text: `\`\`\`「 Warning 」\`\`\`\n\n❊𝘘𝘜𝘌𝘌𝘕 ɴᴏᴠᴀ❊ Antilink System Activated!`, contextInfo: { mentionedJid: mems } }, { quoted: m })
         } else if (args[0] === "off") {
           if (!AntiLinkTwitter) return reply('Already deactivated')
           let off = ntilinktwt.indexOf(from)
@@ -2648,7 +2648,7 @@ case 'wikimedia': case 'wikiimage': {
           members.map(async adm => {
             mems.push(adm.id.replace('c.us', 's.whatsapp.net'))
           })
-          Taira.sendMessage(from, { text: `\`\`\`*「  Warning  」*\`\`\`\n\nAntilink is enabled!`, contextInfo: { mentionedJid: mems } }, { quoted: m })
+          Taira.sendMessage(from, { text: `\`\`\`*「  Warning  」*\`\`\`\n\n❊𝘘𝘜𝘌𝘌𝘕 ɴᴏᴠᴀ❊ Antilink is enabled!`, contextInfo: { mentionedJid: mems } }, { quoted: m })
         } else if (args[0] === "off") {
           if (!antiWame) return reply('Already deactivated')
           let off = nttoxic.indexOf(from)
@@ -2764,7 +2764,7 @@ case 'wikimedia': case 'wikiimage': {
         if (!isCreator) return reply(mess.botowner)
         Taira.sendMessage(from, { react: { text: "🫡", key: m.key } })
         let users = m.mentionedJid[0] ? m.mentionedJid[0] : m.quoted ? m.quoted.sender : text.replace(/[^0-9]/g, '') + '@s.whatsapp.net'
-        await reply("User successfully blocked")
+        await reply("User successfully 𝘣𝘺 ❊𝘘𝘜𝘌𝘌𝘕 ɴᴏᴠᴀ❊ blocked")
         await Taira.updateBlockStatus(users, 'block').then((res) => reply(jsonformat(res))).catch((err) => reply(jsonformat(err)))
       }
         break;
@@ -2776,7 +2776,7 @@ case 'wikimedia': case 'wikiimage': {
         if (!isCreator) return reply(mess.botowner)
         Taira.sendMessage(from, { react: { text: "🫡", key: m.key } })
         let users = m.mentionedJid[0] ? m.mentionedJid[0] : m.quoted ? m.quoted.sender : text.replace(/[^0-9]/g, '') + '@s.whatsapp.net'
-        await relly("User successfully unblocked")
+        await relly("User successfully unblocked 𝘣𝘺 ❊𝘘𝘜𝘌𝘌𝘕 ɴᴏᴠᴀ❊")
         await Taira.updateBlockStatus(users, 'unblock').then((res) => reply(jsonformat(res))).catch((err) => reply(jsonformat(err)))
       }
         break;
@@ -3418,7 +3418,7 @@ case 'wikimedia': case 'wikiimage': {
         if (typeof mathjs.evaluate(qsd) !== 'number') {
           reply('Error')
         } else {
-          reply(`\`\`\`「 _Calculator Tool_ 」\`\`\`\n\n*Input :* ${qsd}\n*Calculation Result :* ${mathjs.evaluate(qsd.replace(/×/g, "*").replace(/x/g, "*").replace(/÷/g, "/"))}`)
+          reply(`\`\`\`「 *_❊𝘘𝘜𝘌𝘌𝘕 ɴᴏᴠᴀ❊ Calculator Tool_* 」\`\`\`\n\n*Input :* ${qsd}\n*Calculation Result :* ${mathjs.evaluate(qsd.replace(/×/g, "*").replace(/x/g, "*").replace(/÷/g, "/"))}`)
         }
       }
         break;
@@ -3735,7 +3735,7 @@ var hassdl = anu.result[0].url
 await Taira.sendMessage(m.chat, {
 video: {
 url: hassdl,
-caption: '♱MAKINO-MD-V2♱♡⃤'
+caption: '❊𝘘𝘜𝘌𝘌𝘕 ɴᴏᴠᴀ❊'
 }
 }, {
 quoted: m
@@ -4056,9 +4056,9 @@ break
                     contextInfo: {
                         externalAdReply: {
                             showAdAttribution: true,
-                            title: `Uptime/Runtime ${runtime(process.uptime())}`,
-                            body: `ταιяα мακιиο`,
-                            thumbnailUrl: 'https://telegra.ph/file/5b7e44e2f5660aa2c4cad.jpg',
+                            title: `❊𝘘𝘜𝘌𝘌𝘕 ɴᴏᴠᴀ❊\n\nUptime/Runtime ${runtime(process.uptime())}`,
+                            body: `𝑺𝑻𝑹𝑰𝑲𝑬𝑹𝑩𝑶𝒀 W͆O͆R͆L͆D͆ 𝑯𝑨𝑪𝑲𝑰𝑵𝑮 ˡᵒᵗ`,
+                            thumbnailUrl: 'https://i.imgur.com/ZnfODeW.jpeg',
                             sourceUrl: 'https://whatsapp.com/channel/0029VafbajGDuMRoRlel7k1p',
                             mediaType: 1,
                             renderLargerThumbnail: true
@@ -4367,7 +4367,7 @@ break
           "shout you bastard in front of your mom/papa",
           "change the name to i am idiot for 24 hours",
           "slap urself firmly and send the sound of slap through voice note😂",
-          "say i love the bot owner Kai through voice note",
+          "say i love the bot owner 𝑆𝑇𝑅𝐼𝐾𝐸𝑅𝐵𝑂𝑌 through voice note",
           "send your gf/bf pic here",
           "make any tiktok dance challenge video and put it on status, u can delete it after 5hrs",
           "break;up with your best friend for 5hrs without telling him/her that its a dare",
@@ -5564,7 +5564,7 @@ break;
         if (!args[0]) return reply("Enter your location to search weather.")
         myweather = await axios.get(`https://api.openweathermap.org/data/2.5/weather?q=${args.join(" ")}&units=metric&appid=e409825a497a0c894d2dd975542234b0&language=tr`)
 
-        const weathertext = `           🌤 *Weather Report* 🌤  \n\n🔎 *Search Location:* ${myweather.data.name}\n*💮 Country:* ${myweather.data.sys.country}\n🌈 *Weather:* ${myweather.data.weather[0].description}\n🌡️ *Temperature:* ${myweather.data.main.temp}°C\n❄️ *Minimum Temperature:* ${myweather.data.main.temp_min}°C\n📛 *Maximum Temperature:* ${myweather.data.main.temp_max}°C\n💦 *Humidity:* ${myweather.data.main.humidity}%\n🎐 *Wind:* ${myweather.data.wind.speed} km/h\n`
+        const weathertext = `           🌤 *❊𝘘𝘜𝘌𝘌𝘕 ɴᴏᴠᴀ❊ Weather Report* 🌤  \n\n🔎 *Search Location:* ${myweather.data.name}\n*💮 Country:* ${myweather.data.sys.country}\n🌈 *Weather:* ${myweather.data.weather[0].description}\n🌡️ *Temperature:* ${myweather.data.main.temp}°C\n❄️ *Minimum Temperature:* ${myweather.data.main.temp_min}°C\n📛 *Maximum Temperature:* ${myweather.data.main.temp_max}°C\n💦 *Humidity:* ${myweather.data.main.humidity}%\n🎐 *Wind:* ${myweather.data.wind.speed} km/h\n`
         Taira.sendMessage(from, { video: { url: 'https://media.tenor.com/bC57J4v11UcAAAPo/weather-sunny.mp4' }, gifPlayback: true, caption: weathertext }, { quoted: m })
 
         break;
@@ -5925,7 +5925,7 @@ let messg = `
 ┃ •  CONVERTERMENU
 ┃ •  FUNMENU
 ┃ •  ANIMEMENU
-┃ •  ADDITiONALMENU
+┃ •  ADDITIONALMENU
 ╰════════════════ ⪨
 `
 await Taira.sendMessage(m.chat, { text: messg }, { quoted: statrp })
@@ -5975,7 +5975,7 @@ break
           if (isBan) return reply(mess.banned);
           if (isBanChat) return reply(mess.bangc);
           Taira.sendMessage(from, { react: { text: "❌", key: m.key } })
-          reply(`Hey *${pushname}*,Unfortunately there are no such command 🤧!`)
+          reply(`Hey *${pushname}*,Unfortunately there are no such command in ❊𝘘𝘜𝘌𝘌𝘕 ɴᴏᴠᴀ❊ 🤧!`)
 
         }
 
