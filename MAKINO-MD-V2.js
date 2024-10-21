@@ -1,10 +1,10 @@
 /*
 
-Base By Taira Makino
+Base By Taira Makino & STRIKERBOY
 Status: Maintained
 Project: MAKINO-MD-V2 
 Year: 2024
-Telegram: https://t.me/Tha_Healer 
+Telegram: https://t.me/Tha_Healer & https://t.me/Strikerboy350
 
 */
 
@@ -4056,7 +4056,7 @@ break
                     contextInfo: {
                         externalAdReply: {
                             showAdAttribution: true,
-                            title: `❊𝘘𝘜𝘌𝘌𝘕 ɴᴏᴠᴀ❊\n\nUptime/Runtime ${runtime(process.uptime())}`,
+                            title: `❊𝘘𝘜𝘌𝘌𝘕 ɴᴏᴠᴀ❊ Uptime/Runtime ${runtime(process.uptime())}`,
                             body: `𝑺𝑻𝑹𝑰𝑲𝑬𝑹𝑩𝑶𝒀 W͆O͆R͆L͆D͆ 𝑯𝑨𝑪𝑲𝑰𝑵𝑮 ˡᵒᵗ`,
                             thumbnailUrl: 'https://i.imgur.com/ZnfODeW.jpeg',
                             sourceUrl: 'https://whatsapp.com/channel/0029VafbajGDuMRoRlel7k1p',
